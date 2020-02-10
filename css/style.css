@@ -614,7 +614,8 @@ h1, h2, h3, h4, h5,
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
-        width: 100%; } }
+        width: 100%; }
+    }
   .intro-section h1 {
     font-size: 3rem;
     font-weight: 900;
@@ -860,5 +861,22 @@ h1, h2, h3, h4, h5,
 @media (min-width : 1200px) {
   .container {
     max-width: 1300px;
+  }
+}
+
+.phone {
+  max-width: 80%;
+}
+@media (max-width: 900px) {
+  .phone {
+    max-width: 70%;
+    margin-left: 15%;
+    max-height: 50%;
+  }
+  .container {
+    padding-top: 30%;
+  }
+  .intro-section {
+    min-height: 70rem;
   }
 }
