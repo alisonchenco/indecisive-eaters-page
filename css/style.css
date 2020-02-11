@@ -677,6 +677,16 @@ h1, h2, h3, h4, h5,
     .section-title {
       font-size: 1.5rem; } }
 
+
+.team-title {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1.8rem;
+  font-weight: 600; }
+  @media (max-width: 991.98px) {
+    .team-title {
+      font-size: 1rem; } }
+
 .counter .icon-wrap {
   margin-right: 1.5rem; }
   .counter .icon-wrap > span {
@@ -738,7 +748,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: "";
-    background: rgba(0, 123, 255, 0.8);
+    background: rgba(223,1,13, 0.8);
     z-index: 1;
     opacity: 0;
     visibility: hidden;
